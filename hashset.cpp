@@ -30,14 +30,14 @@ int main() {
     myHashSet->add(1);
     myHashSet->add(2);
 
-    cout << myHashSet->contains(1) << endl; // Imprime 1 (true)
-    cout << myHashSet->contains(3) << endl; // Imprime 0 (false)
+    cout << myHashSet->contains(1) << endl; 
+    cout << myHashSet->contains(3) << endl; 
 
     myHashSet->add(2);
-    cout << myHashSet->contains(2) << endl; // Imprime 1 (true)
+    cout << myHashSet->contains(2) << endl; 
 
     myHashSet->remove(2);
-    cout << myHashSet->contains(2) << endl; // Imprime 0 (false)
+    cout << myHashSet->contains(2) << endl; 
 
     delete myHashSet; // Liberar la memoria reservada
 
